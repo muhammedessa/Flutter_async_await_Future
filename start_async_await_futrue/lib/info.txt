@@ -1,0 +1,12 @@
+
+
+Async, await, and Future
+
+Async = function is asynchronous and you  need to wait a bit to get its result.
+
+Await = wait here until this function is finished and you will get its return value.
+
+Future = returns value from your asynchronous function. It can complete with success(.then) or with
+an error(.catchError).
+
+.Then((value){…}) is a callback that’s called when future completes successfully(with a value).
